@@ -1,20 +1,97 @@
 #firstImage {
-    width: 80%;
+    width: 30%;
     height: 200px;
-    background-size: cover
+    opacity:0;
 }
 #secondImage {
-    width: 80%;
+    width: 30%;
     height: 200px;
-    background-size: cover
+    opacity: 0;
+
 }
 #thirdImage {
-    width: 80%;
+    width: 30%;
     height: 200px;
-    background-size: cover
+    opacity: 0;
+}
+li {
+    list-style: none;
+}
+li:hover { 
+    color:orange;
 }
 #fourthImage {
-    width: 80%;
+    width: 30%;
     height: 200px;
-    background-size: cover
 }
+li {
+    list-style: none;
+}
+li:hover { 
+    color:orange;
+}
+#fourthImage {
+    opacity:0;
+    display: block;
+}
+#fourthImage:hover {
+    opacity:1;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: .55 ease-in-out;
+    -webkit-transition: .55 ease-in-out;
+}
+#firstImage:hover {
+      opacity:1;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: .55 ease-in-out;
+    -webkit-transition: .55 ease-in-out;  
+}
+#secondImage:hover {
+        opacity:1;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: .55 ease-in-out;
+    -webkit-transition: .55 ease-in-out;
+}
+#thirdImage:hover {
+        opacity:1;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: .55 ease-in-out;
+    -webkit-transition: .55 ease-in-out;
+}
+#div2 {
+    background-color: red;
+}
+#div2:hover {
+    background-color:orange;
+}
+#body1 {
+    background-color:red;
+}
+#body2 {
+      background-color: orange;
+}
+#body3 {
+  background-color: green;
+}
+#body4 {
+     background-color:blue;
+}
+h2 {
+    color: yellow;
+}
+h3 {
+    font-size: 35px;
+    color: yellow;
+}
+p {
+    color: gray;
+    font-size: 35px;
+}
+h1 {
+    color: pink;
+    font-size: 35px;
+}
+h1:hover{
+    color: purple;
+}
+
